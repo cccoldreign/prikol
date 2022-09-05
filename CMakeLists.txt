@@ -6,4 +6,4 @@ set(library
     foo.cpp
     foo.h)
 
-target_link_libraries(lib ${library})
+add_executable(lib ${library})
